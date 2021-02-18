@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Hanalei';
+    src: url(fuentes/Hanalei-Regular.ttf);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Hanalei';
+    text-align: center;
+    font-size: 300%;
+}
+
+h2 {
+    font-family: sans-serif;
+    background-color: gold;
+    border: 5px double red;
+    outline: 2px solid red;
+    color: blue;
+    text-align: center;
+    font-size: 130%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0%;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td.cat {
+    font-weight: bold;
+}
+
+table {
+    margin: auto;
+    border: 1px solid black;
+}
+
+table.uno {
+    width: 50vw;
+    empty-cells: hide;
+    margin-bottom: 20px;
+}
+
+table.dos {
+    width: 70vw;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+tr.alto {
+    border-top: 4px dotted red;
+    border-left: 4px dotted red;
+    border-right: 4px dotted red;
+}
+
+tr.medio {
+    border-left: 4px dotted red;
+    border-right: 4px dotted red;
+}
+
+tr.bajo {
+    border-bottom: 4px dotted red;
+    border-left: 4px dotted red;
+    border-right: 4px dotted red;
+}
+
+caption {
+    background-color: gold;
+    color: blue;
+    font-weight: bold;
+    font-size: 130%;
+}
+
+table.dos caption{
+    caption-side: bottom;
+}
+
+hr.medio {
+    height: 50px;
+    border: 1px solid black;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer hr {
+    width: 50vw;
+}
